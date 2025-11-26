@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const vaciarCarritoBtn = document.getElementById('vaciar_carrito');
 
     // --- añadido: configura aquí la ruta/nombre del archivo QR ---
-    const qrFileName = "imagenes de polos/qr pago.png"; // ejemplo: 'imagenes de polos/qr.png'
+    const qrFileName = "qr pago.png"; // ejemplo: 'imagenes de polos/qr.png'
 
     // Crear botón "Pagar la compra" y contenedor de QR junto al botón "vaciar_carrito"
     if (vaciarCarritoBtn) {
